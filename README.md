@@ -2,6 +2,8 @@
 Template Javascript project using babel/webpack/webpack-dev-server 
 
 ## Para usar o projeto
+    git clone https://github.com/wagnermattos65/js-webpack-project-boilerplate.git
+    cd\js-webpack-project-boilerplate
     yarn install
 
 # Roteiro de construção do projeto
