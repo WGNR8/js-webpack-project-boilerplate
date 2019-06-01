@@ -1,7 +1,10 @@
 # js-webpack-project-boilerplate
 Template Javascript project using babel/webpack/webpack-dev-server 
 
-## Roteiro de construção do projeto
+## Para usar o projeto
+    yarn install
+
+# Roteiro de construção do projeto
 
 ### Install NodeJS => https://nodejs.org/en/
     Check NodeJS => node -v
