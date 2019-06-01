@@ -1,17 +1,17 @@
 # js-webpack-project-boilerplate
 Template Javascript project using babel/webpack/webpack-dev-server 
 
-##Roteiro de construção do projeto
+## Roteiro de construção do projeto
 
-###Install NodeJS => https://nodejs.org/en/
+### Install NodeJS => https://nodejs.org/en/
     Check NodeJS => node -v
-###Install Yarn => https://yarnpkg.com/pt-BR/
+### Install Yarn => https://yarnpkg.com/pt-BR/
     Check yarn => yarn -v
 
-###Executar comando
+### Executar comando
     yarn init
 
-###Instalar dependencias
+### Instalar dependencias
     yarn add @babel/cli -D
     yarn add @babel/preset-env -D
     yarn add @babel/core -D 
@@ -23,7 +23,7 @@ Template Javascript project using babel/webpack/webpack-dev-server
     yarn add webpack-dev-server -D 
 
 
-###Configurar o babel
+### Configurar o babel
     Criar no diretorio raiz do projeto o arquivo .babelrc
     Conteúdo
         {
@@ -32,7 +32,7 @@ Template Javascript project using babel/webpack/webpack-dev-server
         }
 
 
-###Criar script no package.json para executar o babel
+### Criar script no package.json para executar o babel
     Conteúdo
     	"scripts": {
     		"dev": "babel -w ./src/js/main.js -o ./public/bundle.js"
@@ -40,7 +40,7 @@ Template Javascript project using babel/webpack/webpack-dev-server
     para executar 
         yarn dev
 
-###Configurar o webpack
+### Configurar o webpack
      Criar no diretorio raiz do projeto o arquivo webpack.config.js
      Conteúdo
         module.exports = {
@@ -65,12 +65,12 @@ Template Javascript project using babel/webpack/webpack-dev-server
             }
         };
 
-###Configurar o webpack-dev-server
+### Configurar o webpack-dev-server
     incluir em package.json 
      scripts: {
         "dev": "webpack-dev-server --mode=development",
 		"build": "webpack --mode=production"
      }
 
-###Criar arquivo index.html em public
-###Criar arquivo main.js em src/js
+### Criar arquivo index.html em public
+### Criar arquivo main.js em src/js
