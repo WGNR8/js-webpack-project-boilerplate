@@ -2,8 +2,8 @@
 Template Javascript project using babel/webpack/webpack-dev-server 
 
 ## Para usar o projeto
-    git clone https://github.com/wagnermattos65/js-webpack-project-boilerplate.git
-    cd\js-webpack-project-boilerplate
+    git clone https://github.com/wgnr8/js-webpack-project-boilerplate.git
+    cd js-webpack-project-boilerplate
     yarn install
 
 # Roteiro de construção do projeto
@@ -26,6 +26,7 @@ Template Javascript project using babel/webpack/webpack-dev-server
     yarn add babel-loader -D
     yarn add webpack webpack-cli -D
     yarn add webpack-dev-server -D 
+    yarn add eslint
 
 
 ### Configurar o babel
@@ -76,6 +77,9 @@ Template Javascript project using babel/webpack/webpack-dev-server
         "dev": "webpack-dev-server --mode=development",
 		"build": "webpack --mode=production"
      }
+
+### Configurar o ESLint
+    yarn eslint --init
 
 ### Criar arquivo index.html em public
 ### Criar arquivo main.js em src/js
